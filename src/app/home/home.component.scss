@@ -1,0 +1,73 @@
+/* The full-page background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f9; /* Light neutral background */
+  }
+  
+  /* Glass Box Container */
+  .glass-box {
+    background: rgba(255, 255, 255, 0.15); /* Softer glass effect */
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
+    margin: 50px auto;
+  
+    &:hover {
+      background: white;
+      transform: scale(1.05);
+      color: #333;
+    }
+  }
+  
+  /* Headings with modern gradient-inspired tones */
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    color: #0077b6; /* Deep ocean blue - sharp and clean */
+  }
+  
+  h1 .highlight {
+    color: #ff6f61; /* Coral red pop */
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #495057; /* Cool dark grey - smooth readability */
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Button with pop */
+  .explore-btn {
+    background-color: #0077b6;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    border: none;
+  }
+  
+  .explore-btn:hover {
+    background-color: #023e8a;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,79 @@
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    background: #ffffff; /* Clean white background */
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for subtle depth */
+    transition: all 0.3s ease;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff6a00; /* Dark text for better readability */
+    letter-spacing: 1px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo:hover {
+    color: #ff6a00; /* Accent color on hover */
+}
+
+/* Navbar Links */
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff6a00; /* Dark color for readability */
+    padding: 0.5rem 1.2rem;
+    border-radius: 30px;
+    background-color: #f1f1f1; /* Light background for links */
+    transition: all 0.4s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+    background-color: #ff6a00; /* Accent color */
+    color: #ffffff; /* White text on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 10px rgba(255, 106, 0, 0.3); /* Soft shadow on hover */
+}
+
+/* Active Link */
+.nav-links a.active {
+    background-color: #ff6a00;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem;
+    min-height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    font-size: 0.95rem;
+    color: #333;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
